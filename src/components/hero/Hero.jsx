@@ -1,6 +1,7 @@
 import React from "react";
 import HeroBg from "../../assets/hero/hero.png";
 import Navbar from "../navbar/Navbar";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -21,8 +22,8 @@ const Hero = () => {
           working within the organization.
         </p>
 
-        <button className="bg-[#DA6300] !px-[21px] !pt-[13px] !pb-[14.19px] rounded-[6px] text-white lg:!mt-50 !mt-20 ">
-          Request a Free Consultation
+        <button className="bg-[#DA6300] !px-[21px] !pt-[13px] !pb-[14.19px] rounded-[6px] text-white lg:!mt-50 !mt-20 flex items-center gap-2">
+          Request a Free Consultation <FaArrowRight/>
         </button>
       </div>
     </div>
