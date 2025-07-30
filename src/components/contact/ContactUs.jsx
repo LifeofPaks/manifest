@@ -10,12 +10,12 @@ const ContactUs = () => {
 
   return (
     <div
-      className="max-w-[1400px] !mx-auto !py-20 text-white !px-4 "
+      className="max-w-[1400px] !mx-auto lg:!py-20 !py-10 text-white !px-4 "
       id="contact"
     >
       <div className="flex flex-col lg:flex-row items-start justify-center lg:!mb-40 !mb-20 gap-12">
         <div className="w-full lg:w-[700px]">
-          <h1 className="text-white text-[32px] font-medium leading-[56px] uppercase">
+          <h1 className="text-white lg:text-[32px] text-[20px] font-medium leading-[56px] uppercase">
             Transition To Cloud Seamlessly
           </h1>
 
@@ -26,7 +26,7 @@ const ContactUs = () => {
             and we’ll figure out something that works for everyone.
           </p>
 
-          <div className="flex gap-4 !mt-20">
+          <div className="flex gap-4 lg:!mt-20 !mt-10">
             <div className="grid place-content-center bg-[#FC8019] h-[40px] w-[40px] rounded-full">
               <FaFacebookF className="text-[20px] cursor-pointer" />
             </div>
@@ -66,7 +66,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div>
-        <ul className="flex items-center justify-center lg:!mb-20 !mb-10 gap-8 lg:gap-40 lg:flex-row text-[14px]">
+        <ul className="flex items-center justify-center lg:!mb-20 !mb-10 gap-8 lg:gap-40 lg:flex-row lg:text-[14px] text-[13px]">
           <a onClick={scrollToTop} className="cursor-pointer">
             HOME
           </a>

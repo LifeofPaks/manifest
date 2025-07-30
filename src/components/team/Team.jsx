@@ -241,7 +241,7 @@ const Team = () => {
               className="text-white rounded-lg shadow-lg !p-6 flex flex-col bg-[#101010] h-[300px] w-[400px]"
             >
               <div className="flex items-center gap-4">
-                <div className="!mb-4">{member.icon}</div>
+                <div className="">{member.icon}</div>
                 <div>
                   <h2 className="text-[20px] font-semibold !mb-1">
                     {member.name}
